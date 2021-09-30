@@ -405,21 +405,24 @@ img {
 
 /* ========= Адрес =================================== */
 
-
 .address-footer {
     font-style: normal;
     font-size: 14px;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.03em;
     line-height: 1.71;
 }
 
 .address {
     color: #FFFFFF;
 }
+
 .footer .link {
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
-    }
-    
+}
+
 .footer .link:hover,
 .footer .link:focus {
     color: #FFFFFF;
@@ -516,6 +519,7 @@ img {
 .filters-item-btn:focus {
     color: #FFFFFF;
     background-color: var(--accent-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 /*----- Примерьі работ -----*/
@@ -530,6 +534,15 @@ img {
 .examples-item {
     margin: 0 30px 30px 0;
     background-color: #FFFFFF;
+}
+
+.examples-link {
+    text-decoration: none;
+}
+
+.examples-item:hover,
+.examples-item:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .examples-item:nth-child(3n) {
@@ -550,7 +563,7 @@ img {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
-
+    color: var(--primary-text-color);
     letter-spacing: 0.06em;
     margin: 0 0 4px 0;
 }
