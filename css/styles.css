@@ -10,6 +10,9 @@
     margin: 0;
     padding: 0;
 }
+*:focus {
+    outline: none;
+}
 
 .visually-hidden {
     position: absolute;
@@ -68,6 +71,8 @@ img {
     padding: 15px 0;
 }
 
+/* -----logo-----  */
+
 .logo {
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
@@ -78,10 +83,13 @@ img {
     color: var(--accent-color);
 }
 
-/* -----logo-----  */
-
 .studio-header {
     color: #000000;
+}
+
+.logo:focus {
+    outline: 1px solid currentColor;
+    border-radius: 4px;
 }
 
 /* -----Навигация----- */
@@ -107,6 +115,11 @@ img {
 .nav-item .link:hover,
 .nav-item .link:focus {
     color: var(--accent-color);
+}
+
+.nav-item .link:focus {
+    outline: 1px solid currentColor;
+    border-radius: 4px;
 }
 
 /* -----Контактьі----- */
@@ -149,6 +162,11 @@ img {
 .contacts-item .link:hover,
 .contacts-item .link:focus {
     color: var(--accent-color);
+}
+
+.contacts-item .link:focus {
+    outline: 1px solid currentColor;
+    border-radius: 4px;
 }
 
 /* ========= Герой ==================================== */
@@ -199,6 +217,11 @@ img {
 .main-btn:hover,
 .main-btn:focus {
     background-color: #188CE8;
+}
+
+.main-btn:focus {
+    outline: 1px solid currentColor;
+    border-radius: 4px;
 }
 
 /* ========= Особенности ============================== */
@@ -426,6 +449,11 @@ img {
 .footer .link:hover,
 .footer .link:focus {
     color: #FFFFFF;
+}
+
+.footer .link:focus {
+    outline: 1px solid currentColor;
+    border-radius: 4px;
 }
 
 /* ========= Присоединяйтесь =================================== */
